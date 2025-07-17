@@ -1,0 +1,132 @@
+/* Main Widget */
+QWidget {
+    background: #f8fafc;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Labels */
+QLabel {
+    color: #222;
+}
+
+/* Buttons */
+QPushButton {
+    background: #e53935;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-weight: 500;
+}
+
+QPushButton:hover {
+    background: #b71c1c;
+}
+
+/* ComboBox */
+QComboBox {
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 8px 16px;
+    background: white;
+}
+
+QComboBox:hover {
+    border-color: #e53935;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 30px;
+}
+
+QComboBox::down-arrow {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+}
+
+/* Table */
+QTableWidget {
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    background: white;
+    gridline-color: #f1f5f9;
+}
+
+QTableWidget::item {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+QTableWidget::item:selected {
+    background: #fecaca;
+    color: #b71c1c;
+}
+
+QTableWidget::item:hover {
+    background: #f8fafc;
+}
+
+QHeaderView::section {
+    background: #f8fafc;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #e2e8f0;
+    font-weight: 600;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Cards */
+QFrame#card {
+    background: white;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Start Measurement Button */
+QPushButton#measure_btn {
+    background: #e53935;
+    font-size: 18px;
+    padding: 16px 32px;
+    min-width: 180px;
+    border-radius: 16px;
+}
+
+QPushButton#measure_btn:hover {
+    background: #b71c1c;
+}
+
+/* Titles */
+QLabel#title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #b71c1c;
+    margin-bottom: 8px;
+}
+
+QLabel#subtitle {
+    font-size: 18px;
+    color: #e53935;
+}
+
+QLabel#card_title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #b71c1c;
+    margin-bottom: 16px;
+}
+
+/* Image Label */
+QLabel#image_label {
+    background: #f1f5f9;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+/* Chart Canvas */
+QWidget#chart_canvas {
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+} 
